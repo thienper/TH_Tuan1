@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        table,
+        tr,
+        th,
+        td {
+            border: 2px solid rgb(166, 162, 162);
+        }
+
+        .box {
+            text-align: center;
+            width: 500px;
+            background-color: bisque;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .table,
+        .tr,
+        .th,
+        .td {
+            border: 2px solid rgb(166, 162, 162);
+            border-collapse: collapse;
+        }
+
+        .vien {
+            border: 3px solid blueviolet;
+        }
+
+        .box_1 {
+            text-align: center;
+            width: 500px;
+            background-color: bisque;
+            padding: 20px;
+            margin-bottom: 20px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        All time list in central
+        <table>
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>5 pm</th>
+                    <th>7 pm</th>
+                    <th>9 pm</th>
+                    <th>11 pm</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Screen one</td>
+                    <td>Star Wars</td>
+                    <td>Empire Strikes Back</td>
+                    <td>Return of the Jedi</td>
+                    <td>The Exorcist</td>
+                </tr>
+                <tr>
+                    <td>Screen two</td>
+                    <td colspan="2">Dances with Wolves</td>
+                    <td colspan="2">Gone With the Wind</td>
+                </tr>
+                <tr>
+                    <td>Screen three</td>
+                    <td colspan="2">2001: A Space Odyssey</td>
+                    <td>The Conversation</td>
+                    <td>5 Easy Pieces</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="box_1"> Classic Movie Day
+        <div class="vien">
+            <table class="table">
+                <thead>
+                    <tr class="tr">
+                        <th class="th">Time</th>
+                        <th class="th">Monday</th>
+                        <th class="th">Tuesday</th>
+                        <th class="th">Wenesday</th>
+                        <th class="th">Thrsday</th>
+                        <th class="th">Friday</th>
+                        <th class="th">Saturday</th>
+                        <th class="th">Sunday</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="tr">
+                        <td class="td">6:00</td>
+                        <td colspan="7" class="td">National news</td>
+                    </tr>
+                    <tr class="tr">
+                        <td class="td">6:30</td>
+                        <td colspan="7" class="td">Local News</td>
+                    </tr>
+                    <tr class="tr">
+                        <td class="td">7:00</td>
+                        <td class="td" rowspan="2">Opera Fest</td>
+                        <td class="td" rowspan="2">Radio U</td>
+                        <td class="td" rowspan="2">Science</td>
+                        <td class="td" rowspan="2">The living world</td>
+                        <td class="td">Word Play</td>
+                        <td class="td">Agri Week</td>
+                        <td class="td" rowspan="2">Flok Fest</td>
+                    </tr>
+                    <tr class="tr">
+                        <td class="td">7:30</td>
+                        <td class="td">Brain Stew</td>
+                        <td class="td">Bismark Forum</td>
+                    </tr>
+                    <tr class="tr">
+                        <td class="td">8:00</td>
+                        <td class="td" colspan="4" rowspan="4">The Class musical connection</td>
+                        <td class="td">Old time Radio</td>
+                        <td class="td" rowspan="4">Saturday Nite Jazz</td>
+                        <td class="td" rowspan="4">The Indie Connection</td>
+                    </tr>
+                    <tr class="tr">
+                        <td class="td">8:30</td>
+                        <td class="td">The Iner Mind</td>
+                    </tr>
+                    <tr class="tr">
+                        <td class="td">9:00</td>
+                        <td class="td">Open Mike Nite</td>
+                    </tr>
+                    <tr class="tr">
+                        <td class="td">9:30</td>
+                        <td class="td">Relax</td>
+                    </tr>
+                    <tr class="tr">
+                        <td class="td">10:00</td>
+                        <td class="td" colspan="8">World News Feed</td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+
+
+    </div>
+</body>
+
+</html>
